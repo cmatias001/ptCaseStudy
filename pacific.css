@@ -92,7 +92,7 @@ footer {
     font-size:75%;
     font-style: Italic;
     text-align: center;
-    font-family: "Serif";
+    font-family: "Georgia";
     padding: 20px;
     margin-left: 190px;
     background-color: #FFFFFF;
@@ -274,4 +274,67 @@ ul {
     #desktop {
         display:none;
     }
+}
+label {
+    float:left;
+    display:block;
+    text-align:right;
+    width:120px;
+    padding-right:10px;
+}
+input {
+    display:block;
+    margin-bottom: 20px;
+}
+textarea {
+    display:block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left" 130px";
+}
+
+video, embed {
+    float: right;
+    padding-left: 20px;
+}
+
+#gallery {
+    height: 200px;
+    position:relative;
+}
+figure {
+    position: absolute;
+    left: 280px;
+    text-align:center;
+    opacity:.25;
+}
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+#gallery li {
+    display:inline;
+    float: left;
+    padding: 10px;
+}
+#gallery img {
+    border-style:none;
+}
+#gallery a {
+    text-decoration:none;
+    color:#171A2A;
+    font-style: italic;
+}   
+#gallery span {
+    position:absolute;
+    left: 100px;
+    opacity: 0;
+}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left:320px;
+    text-align:left;
+    opacity:1;
 }
